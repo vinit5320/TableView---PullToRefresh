@@ -13,6 +13,14 @@
 		1552C5301BBAF34700ECCB18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1552C52F1BBAF34700ECCB18 /* Images.xcassets */; };
 		1552C5331BBAF34700ECCB18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1552C5311BBAF34700ECCB18 /* LaunchScreen.xib */; };
 		1552C53F1BBAF34700ECCB18 /* TableView_LoadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552C53E1BBAF34700ECCB18 /* TableView_LoadingTests.swift */; };
+		1552C54E1BBAF36800ECCB18 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552C5481BBAF36800ECCB18 /* BallView.swift */; };
+		1552C54F1BBAF36800ECCB18 /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552C5491BBAF36800ECCB18 /* BounceView.swift */; };
+		1552C5501BBAF36800ECCB18 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552C54A1BBAF36800ECCB18 /* CGRectEx.swift */; };
+		1552C5511BBAF36800ECCB18 /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552C54B1BBAF36800ECCB18 /* NSTimerEx.swift */; };
+		1552C5521BBAF36800ECCB18 /* PullToBounceScrollViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552C54C1BBAF36800ECCB18 /* PullToBounceScrollViewWrapper.swift */; };
+		1552C5531BBAF36800ECCB18 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552C54D1BBAF36800ECCB18 /* WaveView.swift */; };
+		1552C5571BBAF3AA00ECCB18 /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552C5551BBAF3AA00ECCB18 /* SampleCell.swift */; };
+		1552C5581BBAF3AA00ECCB18 /* SampleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552C5561BBAF3AA00ECCB18 /* SampleTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		1552C5381BBAF34700ECCB18 /* TableView LoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView LoadingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1552C53D1BBAF34700ECCB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1552C53E1BBAF34700ECCB18 /* TableView_LoadingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_LoadingTests.swift; sourceTree = "<group>"; };
+		1552C5481BBAF36800ECCB18 /* BallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
+		1552C5491BBAF36800ECCB18 /* BounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceView.swift; sourceTree = "<group>"; };
+		1552C54A1BBAF36800ECCB18 /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
+		1552C54B1BBAF36800ECCB18 /* NSTimerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerEx.swift; sourceTree = "<group>"; };
+		1552C54C1BBAF36800ECCB18 /* PullToBounceScrollViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToBounceScrollViewWrapper.swift; sourceTree = "<group>"; };
+		1552C54D1BBAF36800ECCB18 /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		1552C5551BBAF3AA00ECCB18 /* SampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCell.swift; sourceTree = "<group>"; };
+		1552C5561BBAF3AA00ECCB18 /* SampleTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +95,10 @@
 			children = (
 				1552C5281BBAF34700ECCB18 /* AppDelegate.swift */,
 				1552C52A1BBAF34700ECCB18 /* ViewController.swift */,
+				1552C5561BBAF3AA00ECCB18 /* SampleTableView.swift */,
+				1552C5551BBAF3AA00ECCB18 /* SampleCell.swift */,
 				1552C52C1BBAF34700ECCB18 /* Main.storyboard */,
+				1552C5541BBAF36D00ECCB18 /* Source files */,
 				1552C52F1BBAF34700ECCB18 /* Images.xcassets */,
 				1552C5311BBAF34700ECCB18 /* LaunchScreen.xib */,
 				1552C5261BBAF34700ECCB18 /* Supporting Files */,
@@ -110,6 +129,19 @@
 				1552C53D1BBAF34700ECCB18 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1552C5541BBAF36D00ECCB18 /* Source files */ = {
+			isa = PBXGroup;
+			children = (
+				1552C5481BBAF36800ECCB18 /* BallView.swift */,
+				1552C5491BBAF36800ECCB18 /* BounceView.swift */,
+				1552C54A1BBAF36800ECCB18 /* CGRectEx.swift */,
+				1552C54B1BBAF36800ECCB18 /* NSTimerEx.swift */,
+				1552C54C1BBAF36800ECCB18 /* PullToBounceScrollViewWrapper.swift */,
+				1552C54D1BBAF36800ECCB18 /* WaveView.swift */,
+			);
+			name = "Source files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +244,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1552C54E1BBAF36800ECCB18 /* BallView.swift in Sources */,
+				1552C5511BBAF36800ECCB18 /* NSTimerEx.swift in Sources */,
+				1552C5571BBAF3AA00ECCB18 /* SampleCell.swift in Sources */,
+				1552C5501BBAF36800ECCB18 /* CGRectEx.swift in Sources */,
 				1552C52B1BBAF34700ECCB18 /* ViewController.swift in Sources */,
+				1552C54F1BBAF36800ECCB18 /* BounceView.swift in Sources */,
+				1552C5521BBAF36800ECCB18 /* PullToBounceScrollViewWrapper.swift in Sources */,
 				1552C5291BBAF34700ECCB18 /* AppDelegate.swift in Sources */,
+				1552C5531BBAF36800ECCB18 /* WaveView.swift in Sources */,
+				1552C5581BBAF3AA00ECCB18 /* SampleTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
