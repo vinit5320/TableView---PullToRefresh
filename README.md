@@ -1,5 +1,5 @@
 # TableView---PullToRefresh
-
+Now updated for Swift 2.0 !
 ![alt tag](https://swiftyos.files.wordpress.com/2015/09/ios-simulator-screen-shot-sep-29-2015-10-35-10-pm.png?w=251&h=447)
 
 

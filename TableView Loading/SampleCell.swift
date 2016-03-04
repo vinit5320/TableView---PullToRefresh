@@ -21,7 +21,7 @@ class SampleCell: UITableViewCell {
         iconMock.layer.cornerRadius = 10
         self.addSubview(iconMock)
         
-        var label = UILabel(frame: CGRectMake(25, 25, 30, 30))
+        let label = UILabel(frame: CGRectMake(25, 25, 30, 30))
         label.center = CGPointMake(30, 30)
         label.textAlignment = NSTextAlignment.Center
         label.text = "S"
@@ -43,7 +43,7 @@ class SampleCell: UITableViewCell {
     }
 
 
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
